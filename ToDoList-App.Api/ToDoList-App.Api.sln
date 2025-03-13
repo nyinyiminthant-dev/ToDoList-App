@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList-App.Api", "ToDoList-App.Api\ToDoList-App.Api.csproj", "{EB855B3F-CCC4-4F8E-8556-97147B2C410A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList-App.Database", "..\ToDoList-App.Database\ToDoList-App.Database.csproj", "{5FF88408-D334-42FE-8313-1C7824CD5CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList-App.Domain", "..\ToDoList-App.Domain\ToDoList-App.Domain.csproj", "{C187ACAB-6C74-42B7-8915-54E205B537A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB855B3F-CCC4-4F8E-8556-97147B2C410A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB855B3F-CCC4-4F8E-8556-97147B2C410A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB855B3F-CCC4-4F8E-8556-97147B2C410A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB855B3F-CCC4-4F8E-8556-97147B2C410A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF88408-D334-42FE-8313-1C7824CD5CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF88408-D334-42FE-8313-1C7824CD5CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF88408-D334-42FE-8313-1C7824CD5CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF88408-D334-42FE-8313-1C7824CD5CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C187ACAB-6C74-42B7-8915-54E205B537A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C187ACAB-6C74-42B7-8915-54E205B537A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C187ACAB-6C74-42B7-8915-54E205B537A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C187ACAB-6C74-42B7-8915-54E205B537A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
